@@ -10,7 +10,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "RBStringExtensions"
-  spec.version      = "0.1.0"
+  spec.version      = "0.1.1"
   spec.summary      = "A CocoaPods library written in Swift"
 
   spec.description  = <<-DESC
