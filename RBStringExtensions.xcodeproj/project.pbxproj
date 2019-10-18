@@ -16,6 +16,7 @@
 		771305532359480900AB74C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 771305512359480900AB74C1 /* Main.storyboard */; };
 		771305552359480B00AB74C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 771305542359480B00AB74C1 /* Assets.xcassets */; };
 		771305582359480B00AB74C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 771305562359480B00AB74C1 /* LaunchScreen.storyboard */; };
+		7713055E2359492800AB74C1 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7713055D2359492800AB74C1 /* StringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		771305542359480B00AB74C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		771305572359480B00AB74C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		771305592359480B00AB74C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7713055D2359492800AB74C1 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				7713052E235947DF00AB74C1 /* RBStringExtensions.h */,
 				7713052F235947DF00AB74C1 /* Info.plist */,
+				7713055D2359492800AB74C1 /* StringExtension.swift */,
 			);
 			path = RBStringExtensions;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				TargetAttributes = {
 					7713052A235947DF00AB74C1 = {
 						CreatedOnToolsVersion = 11.1;
+						LastSwiftMigration = 1110;
 					};
 					77130533235947DF00AB74C1 = {
 						CreatedOnToolsVersion = 11.1;
@@ -263,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7713055E2359492800AB74C1 /* StringExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +442,7 @@
 		77130540235947E000AB74C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = D774CU834J;
@@ -453,6 +459,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.RBStringExtensions;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -461,6 +468,7 @@
 		77130541235947E000AB74C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = D774CU834J;
@@ -485,6 +493,7 @@
 		77130543235947E000AB74C1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D774CU834J;
 				INFOPLIST_FILE = RBStringExtensionsTests/Info.plist;
@@ -503,6 +512,7 @@
 		77130544235947E000AB74C1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = D774CU834J;
 				INFOPLIST_FILE = RBStringExtensionsTests/Info.plist;
