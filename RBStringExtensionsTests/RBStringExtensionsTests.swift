@@ -22,7 +22,7 @@ class RBStringExtensionsTests: XCTestCase {
     func teste() {
         print(t.teste())
         if t.teste() == "Teste" {
-            XCTAssert(true, "Foii alterado")
+            XCTAssert(true, "Foii alterado nova 0.1.1")
         } else {XCTAssert(false, "nao Foii")}
     }
     
