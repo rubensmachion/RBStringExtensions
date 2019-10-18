@@ -15,7 +15,7 @@ extension String {
         return "Teste"
     }
     
-//    public func teste2() -> String {
-//        return "Esse é o teste 2"
-//    }
+    public func teste2() -> String {
+        return "Esse é o teste 2"
+    }
 }

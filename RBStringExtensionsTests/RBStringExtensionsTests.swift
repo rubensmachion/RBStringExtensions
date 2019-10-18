@@ -26,12 +26,12 @@ class RBStringExtensionsTests: XCTestCase {
         } else {XCTAssert(false, "nao Foii")}
     }
     
-//    func teste2() {
-//        print(t.teste())
-//        if t.teste2() == "Esse é o teste 2" {
-//            XCTAssert(true, "Foii")
-//        } else {XCTAssert(false, "nao Foii")}
-//    }
+    func teste2() {
+        print(t.teste())
+        if t.teste2() == "Esse é o teste 2" {
+            XCTAssert(true, "Foii")
+        } else {XCTAssert(false, "nao Foii")}
+    }
     
 //    override func tearDown() {
 //        // Put teardown code here. This method is called after the invocation of each test method in the class.
